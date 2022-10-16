@@ -14,7 +14,7 @@
 }
 
 
-.hero h1{
+.hero__h1{
   color: white;
   max-width: 837px;
   font-size: 70px;
@@ -23,7 +23,7 @@
   line-height: 85px
 }
 
-.hero p{
+.hero__p{
   color: white;
   font-size: 24px;
   max-width: 790px;
@@ -33,7 +33,7 @@
   line-height: 29px;
 }
 
-.hero button {
+.hero__button {
   outline-color: var(--orange);
   padding: 25px 39px;
   background: var(--orange);
