@@ -80,12 +80,14 @@
 .faq__item:first-child .faq__item__top {
   border-top: 1px solid gray;
 }
+
 .faq__item__top__question {
   margin-right: auto;
   font-size: 24px;
   transition: color .3s ease-in-out;
   font-family: 'Bold', sans-serif;
 }
+
 .faq__item__bottom {
   display: none;
 }
