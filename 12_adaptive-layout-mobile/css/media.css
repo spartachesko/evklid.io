@@ -1,14 +1,39 @@
-
+@media (max-width: 768px) {
+  .how__article * {
+    width: 100%; 
+  }
+  .how__article:before {
+    width: 100%;
+    min-height: 180px;
+    bottom: auto;
+  }
+  .how__article {
+    padding-top: 190px;
+  }
+  .how__p {
+    max-width: 100%;
+  }
+}
 
 @media(max-width: 1024px) {
+
+  .header {
+    margin-bottom: 40px;
+  }
 
   .header .container {
     display: flex;
     justify-content: space-between;
+
   }
 
   .header__nav {
     display: none;
+  }
+
+  .header__logo {
+    padding: 26px 0 26px 0;
+    max-width: 16%;
   }
 
   .burger {
@@ -41,7 +66,111 @@
     transform: translateY(-50%) translateX(-50%);
   }
 
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
-  
+  .hero {
+    margin-bottom: 40px;
+  }
+
+  .hero .container {
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 160px;
+  }
+
+  .hero__h1{
+    line-height: 74px;
+    margin-bottom: 8px;
+    font-size: 60px;
+  }
+
+  .hero__p {
+    line-height: 25px;
+    margin-bottom: 30px;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+
+  .hero__button {
+    margin-top: 30px;
+    margin-bottom: 160px;
+  }
+
+
+  .about{
+    margin-bottom: 40px;
+  }
+
+  .about__p{
+    margin-bottom: 60px;
+    padding-top: 5px;
+  }
+
+  .about__cards{
+    flex-wrap: wrap;
+  }
+
+  .about__first-blog {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: var(--gap);
+    min-height: 640px;
+  }
+
+  .about__first-blog__div{
+    justify-content: space-between;
+  }
+
+
+  .about__second-blog {
+    width: 100%;
+  }
+
+
+  .how {
+    padding-top: 40px;
+  }
+
+  .stages {
+    max-width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .how__p {
+    margin-bottom: 12.5px;
+  }
+
+  .how__span {
+    margin-top: 12.5px;
+  }
+
+  .faq {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+
+  .faq__item__top__question{
+    font-size: 20px;
+    max-width: 84%;
+  }
+
+  .form {
+    max-width: 58%;
+  }
+
+  .footer__descr {
+    display: none;
+  }
+
+  .footer__button{
+    margin-right: 5px;
+    font-size: 16px;
+  }
+
 
 }

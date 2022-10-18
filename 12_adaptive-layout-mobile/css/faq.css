@@ -82,6 +82,7 @@
 }
 
 .faq__item__top__question {
+  text-align: start;
   margin-right: auto;
   font-size: 24px;
   transition: color .3s ease-in-out;
