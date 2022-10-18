@@ -76,10 +76,13 @@
   }
 
   .hero .container {
+    background-image: url('/img/balcon_1024.png');
     padding-right: 50px;
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 160px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .hero__h1{
