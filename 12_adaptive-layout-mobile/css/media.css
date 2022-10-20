@@ -221,7 +221,6 @@
 
   .about__second-blog__article {
     padding-top: 35px;
-    /* padding-bottom: 35px; */
     padding-bottom: 42px;
     padding-left: 40px;
     min-height: 0px;
@@ -229,7 +228,6 @@
 
   .about__second-blog__span {
     margin-right: 0;
-    /* align-items: center; */
   }
 
   .about__img1 {
@@ -246,5 +244,61 @@
     margin-left: 18px;
   }
 
+  .stages {
+    max-width: 100%;
+  }
+
+  .how {
+    padding-bottom: 25px;
+  }
+
+
+  .how__article:before {
+    background-image: url('/img/Rectangle18_768.png');
+  }
+
+  .how__article:before {
+    min-height: 284px;
+  }
+
+  .how__h3 {
+    margin-top: 130px;
+  }
+
+  .faq {
+    margin-bottom: 70px;
+  }
+
+  .faq__item__top__question {
+    font-size: 19px;
+  }
+
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .footer__info {
+    margin-top: 50px;
+    max-width: 100%;
+  }
+
+
+  .footer__info__ul {
+    display: none;
+  }
+
+  .form {
+    order: -1;
+  }
+
+  .footer__info>svg {
+    margin-bottom: 16px;
+  }
+
+  .social {
+    max-width: 65%;
+  }
 
 }
