@@ -114,6 +114,7 @@
 
 .about__img1{
   background-image: url('/img/Frame16.png');
+  /* background-image: url(https://i.ibb.co/5RTdsc5/Frame16.png); */
   background-repeat: no-repeat;
   background-size: contain;
   width: 23%;
@@ -121,6 +122,7 @@
 
 .about__img2{
   background-image: url('/img/Frame12.png');
+  /* background-image: url(https://i.ibb.co/C9DNRhB/Frame12.png); */
   background-repeat: no-repeat;
   background-size: contain;
   width: 23%;

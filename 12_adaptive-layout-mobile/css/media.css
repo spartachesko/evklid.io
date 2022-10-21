@@ -255,11 +255,9 @@
 
   .how__article:before {
     background-image: url('/img/Rectangle18_768.png');
-  }
-
-  .how__article:before {
     min-height: 284px;
   }
+
 
   .how__h3 {
     margin-top: 130px;
@@ -365,6 +363,9 @@
     line-height: 15px;
   }
 
+  .about {
+    margin-bottom: 30px;
+  }
 
   .about__h2 {
     font-size: 24px;
@@ -384,6 +385,7 @@
   .about__first-blog {
     border-radius: 16px;
     background-image: url(/img/Rectangle2_320.png);
+    /* background-image: url(https://i.ibb.co/xJ97xs7/Rectangle2-320.png); */
     background-size: contain;
     color: black;
     min-height: 400px;
@@ -395,8 +397,6 @@
     flex-direction: column;
     background-color: white;
     max-height: 100%;
-
-
   }
 
   .about__first-blog__p {
@@ -421,6 +421,103 @@
   }
 
 
+  .about__second-blog__article {
+    outline: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    flex-direction: column;
+  }
+
+  .about__second-blog__h3 {
+    font-size: 18px;
+    line-height: 22px;
+
+  }
+
+  .about__second-blog__p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .about__second-blog__div {
+    margin-left: 0;
+    margin-top: 12px;
+  }
+
+  .about__img1 {
+    min-height: 55px;
+    min-width: 100%;
+    margin-top: 0;
+  }
+
+  .about__img2 {
+    min-height: 55px;
+    min-width: 100%;
+    margin-top: 0;
+  }
 
 
+  .how {
+    padding-top: 30px;
+  }
+
+  .how__h2 {
+    font-size: 24px;
+    line-height: 29px;
+    padding-bottom: 10px;
+  }
+
+  .stages {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 16px;
+  }
+
+  .how__article {
+    padding-top: 175px;
+  }
+
+  .how__article:before {
+    /* background-image: url(https://i.ibb.co/SyS3X3P/Rectangle18-320.png); */
+    background-image: url(/img/Rectangle18_320.png);
+    border-radius: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 160px;
+  }
+
+  .how__h3 {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .how__p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  .how__button:first-child {
+    padding: 12px 44px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Bold', sans-serif;
+    width: 70%;
+    font-size: 12px;
+    line-height: 15px;
+    margin-right: 10px;
+  }
+
+  .how__button:last-child {
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .how__span {
+    max-width: 80%;
+  }
 }
