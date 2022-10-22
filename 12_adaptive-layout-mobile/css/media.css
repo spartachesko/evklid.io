@@ -44,7 +44,7 @@
     position: relative;
     width: 30px;
     height: 23px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 3px;
   }
 
@@ -460,6 +460,7 @@
 
   .how {
     padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .how__h2 {
@@ -520,4 +521,90 @@
   .how__span {
     max-width: 80%;
   }
+
+  .faq {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+  .faq__h2 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 16px;
+  }
+
+  .faq__item__top__question {
+    font-size: 13px;
+    line-height: 24px;
+    font-family: 'Medium', sans-serif;
+  }
+
+  .btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .form__h3 {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 20px;
+  }
+
+
+  .footer {
+    padding-top: 33px;
+  }
+
+  .footer .container {
+    justify-content: center;
+  }
+
+  .form {
+    min-width: 290px;
+    border-bottom: 1px solid var(--light-black);
+    padding-bottom: 16px;
+  }
+
+  .form__span {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__button {
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 8px;
+    padding: 12px 28px;
+    margin-bottom: 12px;
+  }
+
+  .footer__info {
+    align-items: center;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  
+  .footer__info>svg {
+    width: 60%;
+    margin-bottom: 0;
+  }
+
+  .checkbox+label {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .social__link>svg {
+    height: 70%;
+  }
+
+  .social__link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+
+
 }
