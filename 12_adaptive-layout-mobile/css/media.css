@@ -86,8 +86,12 @@
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 160px;
-    background-size: contain;
+    /* background-size: contain; */
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
   }
 
   .hero__h1 {
@@ -106,6 +110,7 @@
   .hero__button {
     margin-top: 30px;
     margin-bottom: 160px;
+    margin-right: 21px;
   }
 
 
@@ -183,7 +188,7 @@
 
 }
 
-@media(max-width: 768px) {
+@media(max-width: 860px) {
   .header__logo {
     padding: 11px 0 11px 0;
     max-width: 23%;
@@ -301,7 +306,7 @@
 
 }
 
-@media(max-width: 320px) {
+@media(max-width: 375px) {
   .container {
     padding-left: 15px;
     padding-right: 15px;
