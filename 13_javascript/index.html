@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <link type="Image/x-icon" href="/img/favicon.ico" rel="icon">
@@ -54,10 +55,23 @@
   <main>
     <section id="hero" class="hero">
       <div class="container">
-        <h1 class="hero__h1"> Проектные решения любой сложности </h1>
-        <p class="hero__p"> Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей день
-          остаются уделом проектантов </p>
-        <button class="hero__button"> Заказать расчёт </button>
+        <div class="hero__content">
+          <div class="swiper hero__swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide hero-slide-1"></div>
+              <div class="swiper-slide hero-slide-2"></div>
+              <div class="swiper-slide hero-slide-3"></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-bullet-pagination hero__pagination"></div>
+          </div>
+          <h1 class="hero__h1"> Проектные решения любой сложности </h1>
+          <p class="hero__p"> Есть над чем задуматься: базовые сценарии поведения пользователей и&nbsp;по&nbsp;сей день
+            остаются уделом проектантов </p>
+          <button class="hero__button"> Заказать расчёт </button>
+        </div>
       </div>
     </section>
     <section id="about-us" class="about">
@@ -299,7 +313,7 @@
         <input type="text" placeholder="Фамилия,имя и отчество*" class="form__input">
         <input type="email" placeholder="Email*" class="form__input">
         <p><textarea name="comment" placeholder="Сообщение" class="form__input"></textarea></p>
-        <span class="form__span" >
+        <span class="form__span">
           <button type="submit" class="footer__button">Отправить данные</button>
           <input type="checkbox" id="check" class="checkbox"><label for="check">Согласен на обработку данных</label>
         </span>
@@ -312,6 +326,8 @@
       </div>
     </div>
   </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="/js/swiper.js"></script>
 </body>
 
 </html>

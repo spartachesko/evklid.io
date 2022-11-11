@@ -7,7 +7,8 @@
 @import url("footer.css");
 
 :root {
-  --gap: 32px;  
+  --gap: 32px;
+  --white:#FFFFFF;
   --orange:#FF9900;
   --light-orange:#FFB84D;
   --red:#E1670E;
@@ -26,7 +27,7 @@
 * {
   box-sizing: border-box;
   border: none;
-  /* outline: 1px pink solid; */
+  outline: 1px pink solid;
 }
 
 body{
