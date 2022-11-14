@@ -5,6 +5,8 @@
   border-radius: 0px 0px 32px 32px;
 }
 
+
+
 .header .container {
   display: flex;
   align-items: center;
@@ -29,8 +31,6 @@
 .header__li:last-child{
   margin-right: 0;
 }
-
-
 
 .header__link {
   position: relative;
@@ -62,7 +62,9 @@
     color: var(--red);
 }
 
-
+.nav__close {
+  display: none;
+}
 
 .header__search {
   background-color: white;
