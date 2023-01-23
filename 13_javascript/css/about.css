@@ -9,14 +9,16 @@
 }
 
 .about__p{
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  margin-top: 20px;
   margin-bottom: 25px;
   max-width: 1235px;
   line-height: 32px;
 }
 
 .about__cards {
-  margin-top: 25px;
+  /* margin-top: 25px; */
+  margin-top: 50px;
   display: flex;
 }
 

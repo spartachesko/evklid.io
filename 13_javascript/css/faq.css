@@ -1,3 +1,5 @@
+/* Интеграция аккордеона */
+
 .faq__item__bottom {
 	overflow: hidden;
 	visibility: hidden;
@@ -7,6 +9,14 @@
 
 .faq__item__bottom--active .faq__item__bottom {
 	visibility: visible;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.faq__item__bottom p{
+  margin-top: var(--gap);
+  margin-bottom: var(--gap);
+  max-width: 60%;
 }
 
 .list {
@@ -17,6 +27,8 @@
 .accordion__heading {
 	margin: 0;
 }
+
+/* конец */
 
 
 .faq {
@@ -118,9 +130,6 @@
   font-family: 'Bold', sans-serif;
 }
 
-.faq__item__bottom {
-  display: none;
-}
 .faq__item__top:focus-visible { outline: 0; }
 .faq__item__top:hover:not(:active),
 .faq__item__top:focus-visible:not(:active),
