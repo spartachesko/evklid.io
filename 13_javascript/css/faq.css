@@ -1,3 +1,24 @@
+.faq__item__bottom {
+	overflow: hidden;
+	visibility: hidden;
+	transition-property: height, visibility;
+	transition-timing-function: ease;
+}
+
+.faq__item__bottom--active .faq__item__bottom {
+	visibility: visible;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+}
+
+.accordion__heading {
+	margin: 0;
+}
+
+
 .faq {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -58,6 +79,16 @@
   transform: rotate(90deg);
 }
 
+.faq__list{
+	list-style: none;
+	padding: 0;
+}
+
+
+.faq__item{
+  cursor: pointer;
+}
+
 
 .faq__item__top {
   border: 0;
@@ -71,8 +102,6 @@
   width: 100%;
   background-color: transparent;
   line-height: 32px;
-  
-  
   position: relative;
   margin-top: -1px;
   transition: border-color .3s ease-in-out;

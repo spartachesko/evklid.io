@@ -46,6 +46,9 @@
   color: var(--red);
 }
 
+.stages__button--active {
+  color: var(--orange);
+}
 
 
 .how__article:before {
@@ -62,13 +65,18 @@
   background-position: center;
 }
 
-
-
-
 .how__article {
   display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.how__article__item {
+  display: none;
+}
+
+.how__article__item--active{
+  display: block;
 }
 
 .how__h3 {
