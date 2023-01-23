@@ -200,6 +200,64 @@
     margin-bottom: 50px;
   }
 
+  .how__article__item[data-target="one"]:before {
+    content: "";
+    position: absolute;
+    width: 49%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    border-radius: 32px;
+
+    background-image: url('/img/Rectangle18.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .how__article__item[data-target="two"]:before {
+    content: "";
+    position: absolute;
+    width: 49%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    border-radius: 32px;
+
+    background-image: url('/img/Rectangle_19_1920.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .how__article__item[data-target="three"]:before {
+    content: "";
+    position: absolute;
+    width: 49%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    border-radius: 32px;
+
+    background-image: url('/img/Rectangle20_1920.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .how__article__item[data-target="four"]:before {
+    content: "";
+    position: absolute;
+    width: 49%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    border-radius: 32px;
+
+    background-image: url('/img/Rectangle21_1920.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+
   .how__p {
     margin-bottom: 12.5px;
   }
@@ -207,6 +265,20 @@
   .how__span {
     margin-top: 12.5px;
   }
+
+  /* .how__article:before {
+    content: "";
+    position: absolute;
+    width: 49%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    border-radius: 32px;
+
+    background-image: url('/img/Rectangle18.png');
+    background-size: cover;
+    background-position: center;
+  } */
 
   .faq {
     padding-top: 20px;
