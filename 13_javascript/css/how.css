@@ -50,7 +50,7 @@
   color: var(--orange);
 }
 
-/* .how__article__item[data-target="one"]:before {
+.how__article__item:before {
   content: "";
   position: absolute;
   width: 49%;
@@ -58,25 +58,25 @@
   right: 0;
   top: 0;
   border-radius: 32px;
-
-  background-image: url('/img/Rectangle18.png');
   background-size: cover;
   background-position: center;
-} */
+}
 
-/* .how__article:before {
-  content: "";
-  position: absolute;
-  width: 49%;
-  bottom: 0;
-  right: 0;
-  top: 0;
-  border-radius: 32px;
+.how__article__item[data-target="one"]:before {
+  background-image: url('/img/how/1920/how-pic-1-1920.png');
+}
 
-  background-image: url('/img/Rectangle18.png');
-  background-size: cover;
-  background-position: center;
-} */
+.how__article__item[data-target="two"]:before {
+  background-image: url('/img/how/1920/how-pic-2-1920.png');
+}
+
+.how__article__item[data-target="three"]:before {
+  background-image: url('/img/how/1920/how-pic-3-1920.png');
+}
+
+.how__article__item[data-target="four"]:before {
+  background-image: url('/img/how/1920/how-pic-4-1920.png');
+}
 
 .how__article {
   display: flex;
@@ -86,7 +86,6 @@
 
 .how__article__item {
   display: none;
-  /* display: block; */
 }
 
 .how__article__item--active{

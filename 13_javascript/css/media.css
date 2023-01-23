@@ -200,64 +200,6 @@
     margin-bottom: 50px;
   }
 
-  .how__article__item[data-target="one"]:before {
-    content: "";
-    position: absolute;
-    width: 49%;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    border-radius: 32px;
-
-    background-image: url('/img/Rectangle18.png');
-    background-size: cover;
-    background-position: center;
-
-  }
-
-  .how__article__item[data-target="two"]:before {
-    content: "";
-    position: absolute;
-    width: 49%;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    border-radius: 32px;
-
-    background-image: url('/img/Rectangle_19_1920.png');
-    background-size: cover;
-    background-position: center;
-  }
-
-  .how__article__item[data-target="three"]:before {
-    content: "";
-    position: absolute;
-    width: 49%;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    border-radius: 32px;
-
-    background-image: url('/img/Rectangle20_1920.png');
-    background-size: cover;
-    background-position: center;
-  }
-
-  .how__article__item[data-target="four"]:before {
-    content: "";
-    position: absolute;
-    width: 49%;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    border-radius: 32px;
-
-    background-image: url('/img/Rectangle21_1920.png');
-    background-size: cover;
-    background-position: center;
-  }
-
-
   .how__p {
     margin-bottom: 12.5px;
   }
@@ -265,20 +207,6 @@
   .how__span {
     margin-top: 12.5px;
   }
-
-  /* .how__article:before {
-    content: "";
-    position: absolute;
-    width: 49%;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    border-radius: 32px;
-
-    background-image: url('/img/Rectangle18.png');
-    background-size: cover;
-    background-position: center;
-  } */
 
   .faq {
     padding-top: 20px;
@@ -380,8 +308,28 @@
   }
 
   .how__article:before {
-    background-image: url("/img/Rectangle18_768.png");
+    /* background-image: url("/img/Rectangle18_768.png"); */
     min-height: 284px;
+  }
+  
+  .how__article__item:before {
+    /* min-height: 284px; */
+  }
+
+  .how__article__item[data-target="one"]:before {
+    background-image: url('/img/how/768/how-pic-1-768.png');
+  }
+  
+  .how__article__item[data-target="two"]:before {
+    background-image: url('/img/how/768/how-pic-2-768.png');
+  }
+  
+  .how__article__item[data-target="three"]:before {
+    background-image: url('/img/how/768/how-pic-3-768.png');
+  }
+  
+  .how__article__item[data-target="four"]:before {
+    background-image: url('/img/how/768/how-pic-4-768.png');
   }
 
   .how__h3 {
@@ -625,8 +573,8 @@
 
   .about__first-blog {
     border-radius: 16px;
-    /* background-image: url(/img/Rectangle2_320.png); */
-    background-image: url(https://i.ibb.co/xJ97xs7/Rectangle2-320.png);
+    background-image: url(/img/Rectangle2_320.png);
+    /* background-image: url(https://i.ibb.co/xJ97xs7/Rectangle2-320.png); */
     background-size: contain;
     color: black;
     min-height: 400px;
@@ -718,13 +666,38 @@
   }
 
   .how__article:before {
-    background-image: url(https://i.ibb.co/SyS3X3P/Rectangle18-320.png);
+    /* background-image: url(https://i.ibb.co/SyS3X3P/Rectangle18-320.png); */
     /* background-image: url(/img/Rectangle18_320.png); */
+    /* border-radius: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 160px; */
+  }
+
+  .how__article__item:before{
     border-radius: 16px;
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 160px;
   }
+
+  .how__article__item[data-target="one"]:before {
+    background-image: url('/img/how/320/how-pic-1-320.png');
+  }
+  
+  .how__article__item[data-target="two"]:before {
+    background-image: url('/img/how/320/how-pic-2-320.png');
+  }
+  
+  .how__article__item[data-target="three"]:before {
+    background-image: url('/img/how/320/how-pic-3-320.png');
+  }
+  
+  .how__article__item[data-target="four"]:before {
+    background-image: url('/img/how/320/how-pic-4-320.png');
+  }
+
+
 
   .how__h3 {
     margin-top: 0;
