@@ -50,6 +50,12 @@
   color: var(--orange);
 }
 
+.how__article {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 .how__article__item:before {
   content: "";
   position: absolute;
@@ -78,14 +84,11 @@
   background-image: url('/img/how/1920/how-pic-4-1920.png');
 }
 
-.how__article {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
+
 
 .how__article__item {
   display: none;
+  /* position: relative; */
 }
 
 .how__article__item--active{

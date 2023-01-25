@@ -26,7 +26,7 @@
 
 .hero-slide-1 {
   background-image: url("/img/balcon.png");
-  background-image: url("https://i.ibb.co/XLWQJtD/balcon.png");
+  /* background-image: url("https://i.ibb.co/XLWQJtD/balcon.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 32px;
@@ -34,7 +34,7 @@
 
 .hero-slide-2 {
   background-image: url("/img/hero-1920-2.png");
-  background-image: url("https://i.ibb.co/XyXPZ9c/hero-1920-2.png");
+  /* background-image: url("https://i.ibb.co/XyXPZ9c/hero-1920-2.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 32px;
@@ -42,7 +42,7 @@
 
 .hero-slide-3 {
   background-image: url("/img/hero-1920-3.png");
-  background-image: url("https://i.ibb.co/TLq4JLx/hero-1920-3.png");
+  /* background-image: url("https://i.ibb.co/TLq4JLx/hero-1920-3.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 32px;
