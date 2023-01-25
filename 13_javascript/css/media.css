@@ -260,7 +260,7 @@
   }
 
   .about__first-blog {
-    background-image: url("/img/Rectangle2_768");
+    background-image: url("/img/about/768/about-pic-768-1.png");
     min-height: 648px;
   }
 
@@ -576,7 +576,7 @@
 
   .about__first-blog {
     border-radius: 16px;
-    background-image: url(/img/Rectangle2_320.png);
+    background-image: url("/img/about/320/about-pic-320-1.png");
     /* background-image: url(https://i.ibb.co/xJ97xs7/Rectangle2-320.png); */
     background-size: contain;
     color: black;

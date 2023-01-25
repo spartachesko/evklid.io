@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url('/img/Rectangle2.png');
+  background-image: url('/img/about/1920/about-pic-1920-1.png');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 32px;
@@ -115,7 +115,7 @@
 }
 
 .about__img1{
-  background-image: url('/img/Frame16.png');
+  background-image: url('/img/about/about-pic-img-1.png');
   /* background-image: url(https://i.ibb.co/5RTdsc5/Frame16.png); */
   background-repeat: no-repeat;
   background-size: contain;
@@ -123,7 +123,7 @@
 }
 
 .about__img2{
-  background-image: url('/img/Frame12.png');
+  background-image: url('/img/about/about-pic-img-2.png');
   /* background-image: url(https://i.ibb.co/C9DNRhB/Frame12.png); */
   background-repeat: no-repeat;
   background-size: contain;
