@@ -71,6 +71,7 @@
   .nav__close {
     margin-bottom: 40px;
     display: block;
+    background-color: var(--white);
   }
 
   .header__logo {
@@ -423,6 +424,12 @@
     max-width: 100%;
   }
 
+  .faq__item__bottom p{
+    margin-top: var(--gap);
+    margin-bottom: var(--gap);
+    max-width: 100%;
+  }
+
   .form {
     min-width: 300px;
     width: 100%;
@@ -472,6 +479,27 @@
     padding: 20px 15px;
     height: 410px;
   }
+
+  /* search */
+
+.header__search.active {
+  justify-content: space-evenly;
+  position: absolute;
+  display: flex;
+  min-width: 320px;
+  height: 69px;
+  border-radius: 0px 0px 24px 24px;
+  align-self: start;
+}
+
+/* search input */
+
+.header__search__input {
+  min-width: 60%;
+  line-height: 20px;
+  font-size: 16px;
+}
+
 
   .hero {
     margin-bottom: 60px;

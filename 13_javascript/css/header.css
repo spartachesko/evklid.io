@@ -66,31 +66,149 @@
   display: none;
 }
 
+/* search */
+
 .header__search {
+  display: none;
+}
+
+
+.header__search.active {
+  justify-content: space-evenly;
+  position: absolute;
+  display: flex;
+  min-width: 539px;
+  right: 0;
+  opacity: 1;
+  z-index: 2;
+  visibility: visible;
+  border-radius: 24px;
+  background-color: #fff;
+  height: 60px;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* search input */
+
+.header__search__input {
+  min-width: 412px;
+  height: 40px;
+  background-color: var(--white);
+  
+  line-height: 22px;
+  color: var(--light-black);
+  font-size: 18px;
+  border-bottom: 1px solid var(--light-grey);
+
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+}
+
+.header__search__input:focus-visible,
+.header__search__input:hover {
+  outline: 0;
+  background-color: var(--white);
+}
+
+
+.header__search__input:active:not(:focus-visible) {
+  background-color: var(--white);
+}
+
+
+/* search button main */
+
+.header__search__btn__main {
   background-color: white;
 }
 
-.header__search path {
+.header__search__btn__main path {
   transition-property: stroke, outline;
   transition: .3s ease-in-out;
 }
 
 
-.header__search:focus-visible {
+.header__search__btn__main:focus-visible {
   outline:0;
   outline:2px solid var(--orange);
   outline-offset:2px;
 }
 
 
-.header__search:hover:not(:focus-visible) *{
+.header__search__btn__main:hover:not(:focus-visible) *{
   stroke: var(--orange);
 }
 
-.header__search:active:not(:focus-visible) * {
+.header__search__btn__main:active:not(:focus-visible) * {
   stroke: var(--orange);
   opacity: 0.4;
 }
+
+.header__search__btn__main.active {
+  visibility: hidden;
+}
+
+/* search button */
+
+.header__search__btn {
+  background-color: white;
+}
+
+.header__search__btn path {
+  transition-property: stroke, outline;
+  transition: .3s ease-in-out;
+}
+
+
+.header__search__btn:focus-visible {
+  outline:0;
+  outline:2px solid var(--orange);
+  outline-offset:2px;
+}
+
+
+.header__search__btn:hover:not(:focus-visible) *{
+  stroke: var(--orange);
+}
+
+.header__search__btn:active:not(:focus-visible) * {
+  stroke: var(--orange);
+  opacity: 0.4;
+}
+
+/* search close button */
+
+.header__search__close {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    visibility 0.3s ease-in-out;
+    background-color: var(--white);
+}
+
+.header__search__close path {
+  transition-property: stroke, outline;
+  transition: .3s ease-in-out;
+}
+
+
+.header__search__close:focus-visible {
+  outline:0;
+  outline:2px solid var(--orange);
+  outline-offset:2px;
+}
+
+
+.header__search__close:hover:not(:focus-visible) *{
+  stroke: var(--orange);
+}
+
+.header__search__close:active:not(:focus-visible) * {
+  stroke: var(--black);
+  opacity: 0.4;
+}
+
+
 
 
 
