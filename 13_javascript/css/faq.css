@@ -35,6 +35,7 @@
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 50px;
+  
 }
 
 .faq__h2{
@@ -42,6 +43,7 @@
   margin-bottom: 32px;
   line-height: 59px;
   margin-top: 11px;
+  font-family: 'Regular', sans-serif;
 }
 
 .btn {
@@ -69,6 +71,7 @@
   vertical-align: top;
   
 }
+
 .plus:before {
   content: "";
   position: absolute;
@@ -79,6 +82,7 @@
   
   background-color: #666666;
 }
+
 .plus:after {
   content: "";
   position: absolute;
@@ -161,3 +165,9 @@
 .faq__item__top:active .faq__item__top__btn {
   transform: rotate(45deg);
 }
+.faq__item__top__btn.active {
+  transform: rotate(-45deg);
+  /* transform: scaleX(20px) */
+
+}
+

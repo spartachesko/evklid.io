@@ -6,10 +6,10 @@
   font-size: 48px;
   margin-bottom: 10px;
   line-height: 59px;
+  font-family: 'Regular', sans-serif;
 }
 
 .about__p{
-  /* margin-top: 10px; */
   margin-top: 20px;
   margin-bottom: 25px;
   max-width: 1235px;
@@ -17,7 +17,6 @@
 }
 
 .about__cards {
-  /* margin-top: 25px; */
   margin-top: 50px;
   display: flex;
 }

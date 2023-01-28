@@ -33,8 +33,10 @@
     visibility: visible;
     width: 410px;
     padding: 40px 50px;
-    height: 815px;
+    height: 100%;
+    max-height: 815px;
     border-radius: 0px 0px 32px 32px;
+    overflow: scroll;
   }
 
   .header__ul {
@@ -242,7 +244,9 @@
 
   .header__nav.active {
     padding: 20px 50px;
-    height: 775px;
+    height: 100%;
+    max-height: 775px;
+
     border-radius: 0px 0px 24px 24px;
   }
 
@@ -308,7 +312,7 @@
     padding-bottom: 25px;
   }
 
-  
+
 
 
   .how__h3 {
@@ -401,15 +405,15 @@
   .how__article__item[data-target="one"]:before {
     background-image: url('/img/how/768/how-pic-1-768.png');
   }
-  
+
   .how__article__item[data-target="two"]:before {
     background-image: url('/img/how/768/how-pic-2-768.png');
   }
-  
+
   .how__article__item[data-target="three"]:before {
     background-image: url('/img/how/768/how-pic-3-768.png');
   }
-  
+
   .how__article__item[data-target="four"]:before {
     background-image: url('/img/how/768/how-pic-4-768.png');
   }
@@ -424,7 +428,11 @@
     max-width: 100%;
   }
 
-  .faq__item__bottom p{
+  .how__span {
+    min-width: 325px;
+  }
+
+  .faq__item__bottom p {
     margin-top: var(--gap);
     margin-bottom: var(--gap);
     max-width: 100%;
@@ -454,7 +462,11 @@
 
   .header__nav.active {
     border-radius: 0px 0px 16px 16px;
+    padding: 20px 15px;
     width: 100%;
+    height: 100vh;
+
+    
   }
 
   .nav__close {
@@ -475,30 +487,25 @@
     line-height: 20px;
   }
 
-  .header__nav.active {
-    padding: 20px 15px;
-    height: 410px;
-  }
 
   /* search */
 
-.header__search.active {
-  justify-content: space-evenly;
-  position: absolute;
-  display: flex;
-  min-width: 320px;
-  height: 69px;
-  border-radius: 0px 0px 24px 24px;
-  align-self: start;
-}
+  .header__search.active {
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: 69px;
+    border-radius: 0px 0px 24px 24px;
+    align-self: start;
+  }
 
-/* search input */
+  /* search input */
 
-.header__search__input {
-  min-width: 60%;
-  line-height: 20px;
-  font-size: 16px;
-}
+  .header__search__input {
+    margin-left: 15px;
+    line-height: 20px;
+    font-size: 16px;
+  }
 
 
   .hero {
@@ -696,7 +703,7 @@
     padding-top: 175px;
   }
 
-  .how__article__item:before{
+  .how__article__item:before {
     border-radius: 16px;
     background-repeat: no-repeat;
     max-height: 160px;
@@ -705,15 +712,15 @@
   .how__article__item[data-target="one"]:before {
     background-image: url('/img/how/320/how-pic-1-320.png');
   }
-  
+
   .how__article__item[data-target="two"]:before {
     background-image: url('/img/how/320/how-pic-2-320.png');
   }
-  
+
   .how__article__item[data-target="three"]:before {
     background-image: url('/img/how/320/how-pic-3-320.png');
   }
-  
+
   .how__article__item[data-target="four"]:before {
     background-image: url('/img/how/320/how-pic-4-320.png');
   }

@@ -11,6 +11,7 @@
   padding-bottom: 25px;
   font-size: 48px;
   line-height: 59px;
+  font-family: 'Regular', sans-serif;
 }
 
 .stages {
@@ -91,7 +92,7 @@
   /* position: relative; */
 }
 
-.how__article__item--active{
+.how__article__item--active {
   display: block;
 }
 
