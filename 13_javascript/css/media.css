@@ -596,7 +596,7 @@
 
   .about__h2 {
     font-size: 24px;
-    line-height: 29px;
+    line-height: 29.26px;
   }
 
   .about__p {
@@ -688,7 +688,7 @@
 
   .how__h2 {
     font-size: 24px;
-    line-height: 29px;
+    line-height: 29.26px;
     padding-bottom: 10px;
   }
 
@@ -756,6 +756,7 @@
 
   .how__span {
     max-width: 80%;
+    min-width: 20%;
   }
 
   .faq {
@@ -765,7 +766,7 @@
 
   .faq__h2 {
     font-size: 24px;
-    line-height: 29px;
+    line-height: 29.26px;
     margin-bottom: 16px;
   }
 

@@ -27,7 +27,7 @@
 * {
   box-sizing: border-box;
   border: none;
-  /* outline: 1px pink solid; */
+  outline: 1px pink solid;
 }
 
 body{
