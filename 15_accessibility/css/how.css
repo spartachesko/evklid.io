@@ -11,7 +11,7 @@
   padding-bottom: 25px;
   font-size: 48px;
   line-height: 58.51px;
-  font-family: 'Regular', sans-serif;
+  font-family: 'Montserrat-Regular', sans-serif;
 }
 
 .stages {
@@ -100,7 +100,7 @@
   line-height: 32px;
   font-size: 24px;
   margin-bottom: 4px;
-  font-family: 'Bold', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 .how__p {
@@ -126,7 +126,7 @@
   background: var(--orange);
   border-radius: 16px;
   color: white;
-  font-family: 'Bold', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 .how__button:focus-visible:first-child {

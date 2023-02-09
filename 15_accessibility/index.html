@@ -17,14 +17,14 @@
 <body>
   <header class="header">
     <div class="container">
-      <button class="btn-reset burger">
+      <button aria-label="Открыть меню" class="btn-reset burger">
         <span class="burger__line"></span>
         <span class="burger__line"></span>
         <span class="burger__line"></span>
       </button>
-      <img src="/img/Logo.svg" alt="Logo" class="header__logo" />
+      <img src="/img/Logo.svg"  aria-label="Логотип" class="header__logo" />
       <nav class="header__nav">
-        <button class="nav__close"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+        <button aria-label="Закрыть" class="nav__close"><svg width="23" height="23" viewBox="0 0 23 23" fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <rect x="2.09094" width="29.5699" height="2.95699" transform="rotate(45 2.09094 0)" fill="#333333" />
             <rect y="20.9092" width="29.5699" height="2.95699" transform="rotate(-45 0 20.9092)" fill="#333333" />
@@ -48,7 +48,7 @@
           </li>
         </ul>
       </nav>
-      <button class="header__search__btn__main">
+      <button tabindex="0" aria-label="Найти" class="header__search__btn__main" >
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect width="7.56126" height="1.89031"
             transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="black" />
@@ -58,9 +58,9 @@
         </svg>
       </button>
       <div class="header__search">
-        <input type="text" placeholder="Что будем искать?" class="header__search__input" >
+        <input type="text" placeholder="Что будем искать?" class="header__search__input" aria-label="Строка поиска">
 
-        <button class="header__search__btn">
+        <button class="header__search__btn" aria-label="Найти">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect width="7.56126" height="1.89031"
               transform="matrix(0.713342 0.700816 -0.713342 0.700816 18.6064 17.3762)" fill="black" />
@@ -69,7 +69,7 @@
               stroke="black" stroke-width="2" />
           </svg>
         </button>
-        <button class="header__search__close" >
+        <button class="header__search__close" aria-label="Закрыть">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="8.9541" y="7.30444" width="11.6645" height="2.33291" transform="rotate(45 8.9541 7.30444)" fill="#CACACA"/>
             <rect x="7.30469" y="15.5525" width="11.6645" height="2.33291" transform="rotate(-45 7.30469 15.5525)" fill="#CACACA"/>
@@ -275,7 +275,7 @@
   <footer id="contacts" class="footer">
     <div class="container">
       <div class="footer__info">
-        <svg width="225" height="72" viewBox="0 0 225 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg aria-label="Логотип" width="225" height="72" viewBox="0 0 225 72" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M70.5385 36.2905C69.4378 36.9224 68.1026 37.4218 66.533 37.7887C64.9634 38.1556 63.3326 38.3391 61.6407 38.3391C59.3576 38.3391 57.4109 38.0639 55.8006 37.5135C54.2106 36.9632 53.0079 36.1987 52.1925 35.2203C51.3975 34.2418 51 33.1105 51 31.8263C51 30.7051 51.3058 29.7165 51.9173 28.8603C52.5288 28.0042 53.3748 27.3417 54.4552 26.8728C53.6194 26.4447 52.9773 25.8536 52.5288 25.0994C52.1008 24.3248 51.8867 23.4788 51.8867 22.5615C51.8867 21.3792 52.2536 20.2988 52.9875 19.3204C53.7417 18.3419 54.8832 17.5571 56.4121 16.9659C57.9409 16.3748 59.8265 16.0792 62.0688 16.0792C63.4753 16.0792 64.8615 16.2117 66.2272 16.4767C67.593 16.7417 68.7957 17.0984 69.8353 17.5469L68.1841 22.0723C66.2884 21.2365 64.3315 20.8186 62.3134 20.8186C60.8661 20.8186 59.7857 21.0123 59.0723 21.3996C58.3588 21.7665 58.0021 22.2863 58.0021 22.959C58.0021 24.1821 58.8888 24.7936 60.6623 24.7936H66.7165V29.4107H60.2648C59.2251 29.4107 58.4403 29.584 57.9103 29.9305C57.3804 30.2566 57.1154 30.7459 57.1154 31.3982C57.1154 32.0913 57.5027 32.6314 58.2773 33.0187C59.0519 33.4061 60.2546 33.5997 61.8853 33.5997C63.0472 33.5997 64.2397 33.4468 65.4628 33.1411C66.7063 32.8149 67.7866 32.3766 68.7039 31.8263L70.5385 36.2905Z"
             fill="white" />
@@ -360,8 +360,8 @@
           <li><a class="footer__link" href="">Конфиденциальность</a></li>
           <li><a class="footer__link" href="">Партнёрское соглашение</a></li>
         </ul>
-        <span class="social">
-          <a class="social__link" href="">
+        <span aria-label="Социальные сети" class="social">
+          <a aria-label="Одноклассники" class="social__link" href="">
             <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M25.7054 19.9812C25.7054 22.4546 27.7105 24.4598 30.1838 24.4598C32.6572 24.4598 34.6623 22.4546 34.6623 19.9812C34.6623 17.5079 32.6572 15.5028 30.1838 15.5028C27.7105 15.5028 25.7054 17.5079 25.7054 19.9812Z"
@@ -371,7 +371,7 @@
                 fill="#666666" />
             </svg>
           </a>
-          <a class="social__link" href="">
+          <a aria-label="Вконтакте" class="social__link" href="">
             <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M30 0C13.432 0 0 13.4314 0 30C0 46.5686 13.432 60 30 60C46.568 60 60 46.5686 60 30C60 13.4314 46.568 0 30 0ZM45.2176 33.2446C46.6159 34.6103 48.0951 35.8957 49.3504 37.4026C49.9065 38.0692 50.4307 38.7585 50.8297 39.5337C51.3993 40.6392 50.8849 41.8515 49.8954 41.9171L43.7494 41.9159C42.162 42.0473 40.8988 41.4071 39.8339 40.3218C38.9837 39.457 38.195 38.5332 37.3762 37.6389C37.0416 37.2718 36.6893 36.9262 36.2695 36.6543C35.4316 36.1093 34.7036 36.2762 34.2236 37.1515C33.7344 38.0421 33.6227 39.0292 33.5761 40.0205C33.5092 41.4697 33.0721 41.8484 31.618 41.9165C28.5109 42.062 25.5628 41.5906 22.8227 40.0241C20.4055 38.6425 18.5346 36.6924 16.9043 34.4845C13.7297 30.1805 11.2984 25.4566 9.11386 20.597C8.6222 19.5026 8.98189 18.917 10.1893 18.8943C12.1952 18.8557 14.2011 18.8606 16.2071 18.8925C17.0234 18.9054 17.5636 19.3725 17.8772 20.1428C18.9612 22.8098 20.2901 25.3473 21.9554 27.7007C22.3992 28.3274 22.8522 28.9522 23.4973 29.3948C24.2093 29.8834 24.7519 29.7219 25.0877 28.9271C25.3025 28.4219 25.3952 27.8817 25.4418 27.3404C25.6014 25.486 25.6205 23.6323 25.3442 21.7854C25.1724 20.6296 24.5224 19.8832 23.3702 19.6647C22.7834 19.5536 22.8694 19.3363 23.1548 19.0011C23.6501 18.4217 24.1142 18.0632 25.0416 18.0632L31.9857 18.062C33.0801 18.2768 33.3256 18.7679 33.4742 19.8703L33.4803 27.5871C33.4674 28.0137 33.6945 29.2782 34.4606 29.5574C35.0744 29.76 35.4795 29.2677 35.8465 28.8792C37.5118 27.112 38.6983 25.0263 39.7608 22.8675C40.2298 21.9155 40.6343 20.9303 41.0271 19.9433C41.3193 19.2135 41.7735 18.8544 42.5972 18.8667L49.2841 18.8747C49.4811 18.8747 49.6812 18.8765 49.8764 18.9103C51.0034 19.103 51.3121 19.5879 50.9635 20.6873C50.4147 22.4145 49.3485 23.8533 48.3063 25.2958C47.1892 26.8401 45.9977 28.3304 44.8917 29.8815C43.8752 31.2994 43.9556 32.0133 45.2176 33.2446Z"
@@ -382,12 +382,27 @@
       </div>
       <form action="#" class="form">
         <h3 class="form__h3"> Оставить заявку </h3>
-        <input type="text" placeholder="Фамилия,имя и отчество*" class="form__input">
-        <input type="email" placeholder="Email*" class="form__input">
-        <p><textarea name="comment" placeholder="Сообщение" class="form__input"></textarea></p>
+        <label class="form__label">
+          <span class="visually-hidden">
+            Введите фамилию, имя и отчество
+          </span>
+          <input type="text" placeholder="Фамилия,имя и отчество*" class="form__label__input">
+        </label>
+        <label class="form__label" >
+          <span class="visually-hidden">
+            Введите Email
+          </span>
+          <input type="email" placeholder="Email*" class="form__label__input">
+        </label>
+        <label class="form__label">
+          <span class="visually-hidden">
+            Введите сообщение
+          </span>
+          <p><textarea name="comment" placeholder="Сообщение" class="form__label__textarea"></textarea></p>
+        </label>
         <span class="form__span">
           <button type="submit" class="footer__button">Отправить данные</button>
-          <input type="checkbox" id="check" class="checkbox"><label for="check">Согласен на обработку данных</label>
+          <input type="checkbox" id="check" class="checkbox"><label for="check" tabindex="0">Согласен на обработку данных</label>
         </span>
       </form>
       <div class="footer__descr">

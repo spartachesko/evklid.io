@@ -8,10 +8,10 @@
 
 :root {
   --gap: 32px;
-  --white:#FFFFFF;
-  --orange:#FF9900;
-  --light-orange:#FFB84D;
-  --red:#E1670E;
+  --white: #FFFFFF;
+  --orange: #FF9900;
+  --light-orange: #FFB84D;
+  --red: #E1670E;
   --light-grey: #CACACA;
   --hard-grey: #666666;
   --light-black: #414141;
@@ -30,8 +30,8 @@
   /* outline: 1px pink solid; */
 }
 
-body{
-  font-family: 'Regular', sans-serif;
+body {
+  font-family: 'Montserrat-Regular', sans-serif;
 }
 
 ul {
@@ -52,6 +52,7 @@ ul {
   padding-top: 0;
   padding-bottom: 0;
 }
+
 a {
   text-decoration: none;
   color: inherit;
@@ -79,9 +80,19 @@ button {
 }
 
 .btn-reset {
-  background-color:white;
+  background-color: white;
 }
 
 .burger {
   display: none;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	padding: 0 !important;
+	border: 0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
 }

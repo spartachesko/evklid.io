@@ -47,7 +47,7 @@
   margin-bottom: 32px;
   line-height: 58.51px;
   margin-top: 11px;
-  font-family: 'Regular', sans-serif;
+  font-family: 'Montserrat-Regular', sans-serif;
 }
 
 .btn {
@@ -136,7 +136,7 @@
   margin-right: auto;
   font-size: 24px;
   transition: color .3s ease-in-out;
-  font-family: 'Bold', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
 }
 
 .faq__item__top:focus-visible {

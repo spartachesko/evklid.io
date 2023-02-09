@@ -22,7 +22,7 @@
   margin-bottom: 90px;
   line-height: 36px;
   font-size: 18px;
-  font-family: 'Semibold', sans-serif;
+  font-family: 'Montserrat-Semibold', sans-serif;
 
 }
 
@@ -90,21 +90,11 @@
   fill: var(--red);
 }
 
-
-
-
-
-
-
-
-
-
-
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
-  min-width: 541px;
+  width: 100%;
+  max-width: 541px;
 }
 
 .form__h3 {
@@ -151,7 +141,8 @@ input#check {
   background-image: url("/img/check.svg");
 }
 
-.form__input {
+.form__label__input, 
+.form__label__textarea {
   width: 100%;
   border-radius: 16px;
   height: 60px;
@@ -166,19 +157,22 @@ input#check {
   transition-timing-function: ease-in-out;
 }
 
-.form__input:focus-visible,
-.form__input:hover {
+.form__label__input:focus-visible,
+.form__label__textarea:focus-visible,
+.form__label__input:hover,
+.form__label__textarea:hover {
   outline: 0;
   background-color: var(--hard-grey);
 }
 
 
-.form__input:active:not(:focus-visible) {
+.form__label__input:active:not(:focus-visible),
+.form__label__textarea:active:not(:focus-visible) {
   background-color: var(--hard-grey);
 }
 
 
-.form__input:last-child {
+.form__label__textarea {
   min-height: 150px;
   padding-top: 14px;
 }
@@ -199,7 +193,7 @@ input#check {
   font-size: 20px;
   margin: auto 0;
   margin-right: var(--gap);
-  font-family: 'Bold', sans-serif;
+  font-family: 'Montserrat-Bold', sans-serif;
   line-height: 20px;
 
   transition-property: background-color;
