@@ -18,6 +18,9 @@
   padding: 14px 0 14px 0;
 }
 
+.header__nav{
+  margin-left: 15%;
+}
 
 .header__ul {
   display: flex;
