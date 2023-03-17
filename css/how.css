@@ -70,19 +70,19 @@
 }
 
 .how__article__item[data-target="one"]:before {
-  background-image: url('/img/how/1920/how-pic-1-1920.png');
+  background-image: url('../img/how/1920/how-pic-1-1920.png');
 }
 
 .how__article__item[data-target="two"]:before {
-  background-image: url('/img/how/1920/how-pic-2-1920.png');
+  background-image: url('../img/how/1920/how-pic-2-1920.png');
 }
 
 .how__article__item[data-target="three"]:before {
-  background-image: url('/img/how/1920/how-pic-3-1920.png');
+  background-image: url('../img/how/1920/how-pic-3-1920.png');
 }
 
 .how__article__item[data-target="four"]:before {
-  background-image: url('/img/how/1920/how-pic-4-1920.png');
+  background-image: url('../img/how/1920/how-pic-4-1920.png');
 }
 
 
